@@ -2,10 +2,33 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel="stylesheet" href = "style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <style>
+            #Searchbox{
+            position: absolute; 
+            top: 36vh;
+            left: 30.5vw;
+            width: 560px;
+            height: 40px;
+            border-radius: 20px;
+            text-align:var(10px);
+            
+            
+            }
+
+        </style>
     </head>
     <body>
+        <img id = "googleimage" src = "googlelogo_color_272x92dp.png" style = " position: absolute;
+        top: 21vh;
+        left: 40.5vw;
+        ">
         <form action="https://www.google.com/search">
-            <input type="text" name="q">
+            <div >
+                <input  id="Searchbox" type="text" name="q">
+            </div>
+            
             <input type="submit" value="Google Search">
         </form>
     </body>
