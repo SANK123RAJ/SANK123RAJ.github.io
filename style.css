@@ -1,5 +1,70 @@
-#SearchBox> input{
-    width: 50vw;
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: 10px;
     
     
 }
+.links> a{
+    flex-shrink: 2;
+    margin-right: 15px; 
+    text-decoration: none;
+    color: #202124;
+
+}
+.SearchDiv{
+    
+    display: flex;
+    justify-content: center;
+    
+    margin: 15px auto;
+    width: 584px;
+    width: auto;
+    max-width: 584px;}
+
+    #Searchbox{
+        flex: 1;
+    display: flex;
+    flex-shrink: 10;
+    padding: 3px 8px 0 25px;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    font-size: 17px;
+    font-family: arial,sans-serif;
+    color: #202124;
+
+    }
+    .Buttons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .Buttons > input{
+        background-color: #f8f9fa;
+        border: 1px solid #f8f9fa;
+        border-radius: 4px;
+        color: #3c4043;
+        font-family: arial,sans-serif;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        text-align: center;
+        cursor: pointer;
+        user-select: none;
+    }
+    #googlelogo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20vh;
+    }
