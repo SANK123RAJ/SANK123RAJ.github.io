@@ -68,3 +68,20 @@
         align-items: center;
         margin-top: 20vh;
     }
+    #googleimagelogo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20vh;
+
+    }
+    #logotext{
+        color: #4285f4;
+        font: 16px/16px roboto-regular, arial, sans-serif;
+        position: relative;
+        left: -60px;
+        bottom: -40px;
+        white-space: nowrap;
+    }
+  
