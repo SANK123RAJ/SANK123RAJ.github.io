@@ -84,6 +84,33 @@
                 position: relative;align-self: center;
 
         }
+        .tworowinput{
+            float: left;
+            display: flex;
+                
+                min-width: 167px;
+                min-height: 41px;
+                vertical-align: middle;
+                width: 50%;
+        }
+        .twolastinputs{
+                border-radius: 1px;
+                border: 1px solid #d9d9d9;
+                border-top: 1px solid #c0c0c0;
+                font-size: 13px;
+                width: 160px;
+                height: 25px;
+                padding: 1px 8px;
+
+        }
+        #textbetweeninputs{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 2px;
+             font-size: 13px;
+             font-family: Arial, Helvetica, sans-serif;
+
+        }
 
 
 
@@ -104,6 +131,11 @@
     <div class ="line"></div>
     <div id = "FormContainer" style=" margin-right: 40%;">
         <ul style="list-style-type: none;">
+            <li><div class="horizontaldivs">
+                <div class="first_text_in_row" style = "font-size: 16px;">Find pages with...</div>
+                <div class="input_in_row_div">
+                </div>
+                <div class="last_text_in_row" style="color: #777;margin-left: -20px;">To do this in the search box.</div>
             <li><div class="horizontaldivs">
                 <div class="first_text_in_row">all these words:</div>
                 <div class="input_in_row_div">
@@ -134,8 +166,10 @@
             </div></li>
             <li><div class="horizontaldivs">
                 <div class="first_text_in_row">numbers ranging from:</div>
-                <div class="input_in_row_div">
-                <input class="INPUTSTYLE" type="text" name="1stone"></div>
+                <div class="tworowinput">
+                <input  class="twolastinputs" style= "margin-right: auto; "type="text" name="1stone">
+                <p id ="textbetweeninputs">to</p>
+                <input  class="twolastinputs"style= "margin-left: auto;"type="text" name="1stone"></div>
                 <div class="last_text_in_row">Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011</div>
 
             </div></li>
